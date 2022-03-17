@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/img/rick.ico"" type="image/x-icon">
+  <title>Rick and Morty</title>
+  <link rel="stylesheet" href="./assets/style/main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&amp;display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
+</head>
+
+<body>
+
+  <section class="parallax">
+    <div class="container">
+      <h1 class="title"><a href="./">Rick And Morty With API</a></h1>
+      <p class="text-dark">Rick & Morty characters calls via Async/Await.
+
+        All the characters of this extraordinary animated series will be rendered,
+        revealing their status.
+      </p>
+      <div class="top-header">
+        <div class="social-networks">
+        <a target="_blank" href="https://github.com/dioselyn"><i class="fab fa-github"></i></a>
+        <a target="_blank" href="https://www.instagram.com/dioze_leen/"><i class="fab fa-instagram"></i></a>
+        <a target="_blank" href="https://www.linkedin.com/in/dioselyn-colina-424294130/"><i class="fab fa-linkedin-in"></i></a>
+        <a target="_blank" href="https://twitter.com/dioze_leen"><i class="fab fa-twitter"></i></a>
+       </div>
+       <div class="filters">
+        <button id="all" class="button">All</button>
+        <button id="alive" class="button">Alive</button>
+        <button id="dead" class="button">Dead</button>
+        <button id="unknown" class="button">Unknown</button>
+      </div>
+      <div class="search">
+        <input type="search" id="search" placeholder="Search Character Name...">
+      </div>
+    </div>
+    
+    <div class="bottom-header">
+    <nav class="links"></nav>
+    </div>
+    <main class="cards-content"></main>
+    </div>
+  </section>
+  <script src="./src/js/characters.js"></script>
+  <script src="./src/js/pagination.js"></script>
+  <script src="./src/js/search.js"></script>
+  <script src="./src/js/filter.js"></script>
+</body>
+
+</html>
+
