@@ -45,4 +45,4 @@ This project is under the MIT license [LICENSE.md](LICENSE.md) for details
 * Thanks Platzi 🤓.
 
 ---
-⌨️ con ❤️ por [dioselyn](https://github.com/dioselyn) 😊
+⌨️ with ❤️ by [dioselyn](https://github.com/dioselyn) 😊
