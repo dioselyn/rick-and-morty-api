@@ -1,6 +1,8 @@
 #  Rick and Morty with API
 
-_Rick and Morty API retrieved from https://rickandmortyapi.com/api/character/ using async/await_
+```
+Rick and Morty API retrieved from https://rickandmortyapi.com/api/character/ using async/await
+```
 
 ## Starting 🚀
 
