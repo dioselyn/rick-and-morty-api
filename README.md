@@ -2,6 +2,7 @@
 
 ```
 Rick and Morty API retrieved from https://rickandmortyapi.com/api/character/ using async/await
+site published in the following link https://dioselyn.github.io/rick-and-morty-api/
 ```
 
 ## Starting 🚀
