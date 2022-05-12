@@ -99,7 +99,7 @@ h1 {
   display: inline-block;
   top: 125%;
   margin: auto;
-  left: 45%;
+  left: 47%;
 }
 
 #all {
@@ -324,12 +324,6 @@ h3, h4, h5, p {
   width: 300%;
 }
 
-.loader {
-  left: 47%;
-}
-
-
-
 }
 
 @media only screen and (max-width:640px) {
@@ -392,9 +386,6 @@ h3, h4, h5, p {
     vertical-align: middle;
   }
 
-  .loader {
-    left: 47%;
-  }
 
   
 }
