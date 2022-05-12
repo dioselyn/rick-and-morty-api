@@ -5,7 +5,7 @@ const API = "https://rickandmortyapi.com/api/character/";
 
 async function loadCharacter(url) {
   try {
-    $main.innerHTML = `<div class="loader-container"><img class="loader" src="../../assets/img/loader.svg" alt="Loading..."></div>`;
+    $main.innerHTML = `<div class="loader-container"><img class="loader" src="https://dioselyn.github.io/rick-and-morty-api/assets/img/loader.svg" alt="Loading..."></div>`;
 
     let response = await fetch(url),
       json = await response.json(),
